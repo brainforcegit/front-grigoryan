@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #555;
+    --font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Google Fonts */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2rem; /* 32px */
+}
+
+h2 {
+    font-size: 1.75rem; /* 28px */
+}
+
+h3 {
+    font-size: 1.5rem; /* 24px */
+}
+
+h4 {
+    font-size: 1.25rem; /* 20px */
+}
+
+h5 {
+    font-size: 1.125rem; /* 18px */
+}
+
+h6 {
+    font-size: 1rem; /* 16px */
+}
+
+p {
+    font-size: 1rem; /* 16px */
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
